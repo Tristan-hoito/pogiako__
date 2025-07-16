@@ -10,4 +10,8 @@ elif unit == 'C':
 else:
     result = 'Invalid'
     funit = 'Results'
+<<<<<<< HEAD
 print(f'Result: {result:.2f} {funit}')
+=======
+print(f'Result: {result:.2f} {funit}')
+>>>>>>> 39b764ca844205cd873672d995f4b97e56e94163
