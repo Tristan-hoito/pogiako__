@@ -16,4 +16,4 @@ elif 59.4 >= ave >= 0:
 else:
     grade = 'Invalid'
     
-print(ave, grade)
+print(f'Result: {ave:.2f} {grade}')
