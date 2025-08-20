@@ -2,13 +2,22 @@ cart = []
 
 def addcart():
     while True:
-        
+        print("")
         print("1. Jumbo Hotdog : 50 pesos")
         print("2. MalaJuicy Hamburger : 60 pesos")
+        print("")
 
         cart.append()
 
-        pass
+
+
+def show_cart():
+    while True:
+        for item in cart:
+            print(item)
+
+
+
 def merienda():
     while True:
         try:
@@ -23,17 +32,20 @@ def merienda():
             num = int(input("Enter a number from 1-6: "))
 
             match num:
-                case "1":
+                case 1:
                     addcart()
-                case "2":
+                case 2:
                     pass
-                case "3":
+                case 3:
                     pass
-                case "4":
+                case 4:
                     pass
-                case "5":
+                case 5:
                     pass
-                case "6":
+                case 6:
+                    print("")
+                    print("Exiting......")
+                    print("")
                     break
 
         except ValueError:
